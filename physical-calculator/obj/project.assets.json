@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ncalc/1.3.8": {
+        "type": "package",
+        "compile": {
+          "lib/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/NCalc.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ncalc/1.3.8": {
+      "sha512": "T3kt6mWc70x3Ex5PxOmuILy563CGAdoAnyknXX7Du2/SXs2T94hNwc5CVwZcwCu5/A2ZBZhnHnc5dpcqCRGQ0A==",
+      "type": "package",
+      "path": "ncalc/1.3.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/NCalc.dll",
+        "ncalc.1.3.8.nupkg.sha512",
+        "ncalc.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ncalc >= 1.3.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\marke\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\marke\\OneDrive\\Documents\\škola\\Programování a vývoj aplikací\\physical-calculator\\physical-calculator\\physical-calculator.csproj",
+      "projectName": "physical-calculator",
+      "projectPath": "C:\\Users\\marke\\OneDrive\\Documents\\škola\\Programování a vývoj aplikací\\physical-calculator\\physical-calculator\\physical-calculator.csproj",
+      "packagesPath": "C:\\Users\\marke\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marke\\OneDrive\\Documents\\škola\\Programování a vývoj aplikací\\physical-calculator\\physical-calculator\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\marke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "ncalc": {
+            "target": "Package",
+            "version": "[1.3.8, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Balíček ncalc 1.3.8 se místo cílové verze rozhraní .NET Framework projektu net7.0 obnovil pomocí .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1. Balíček nemusí být plně kompatibilní s vaším projektem.",
+      "libraryId": "ncalc",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

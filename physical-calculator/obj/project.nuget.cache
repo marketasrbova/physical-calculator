@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "vPtjTU26iUSqohEgWFBi+y6wASwWn9wy6oK7lR3SBoARR1CWXet+/+51NuQbdEjZXJIyYn/nXz1PBN0D6cBw4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marke\\OneDrive\\Documents\\škola\\Programování a vývoj aplikací\\physical-calculator\\physical-calculator\\physical-calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marke\\.nuget\\packages\\ncalc\\1.3.8\\ncalc.1.3.8.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Balíček ncalc 1.3.8 se místo cílové verze rozhraní .NET Framework projektu net7.0 obnovil pomocí .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1. Balíček nemusí být plně kompatibilní s vaším projektem.",
+      "libraryId": "ncalc",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
