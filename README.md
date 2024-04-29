@@ -1,5 +1,4 @@
-**Projekt PVA – kalkulačka fyzikálních vzorců
-Markéta Srbová**
+**Physical-calculator**
 
 **Popis projektu**
 	Cílem tohoto projektu je vytvořit variabilní kalkulačku fyzikálních vzorců. Program se uživatele ptá, jakou fyzikální veličinu chce vypočíst a následně vypíše všechny vzorce pro danou veličinu, které má nahrané v databázi (pokud uživatel předem nespecifikuje, který vzorec chce použít). Poté, co si uživatel vybere jeden ze vzorců, se program zeptá na hodnotu veličin nezbytných pro výpočet a po jejich zadání vypíše výsledek. 
